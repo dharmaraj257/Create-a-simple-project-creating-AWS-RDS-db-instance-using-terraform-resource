@@ -6,28 +6,28 @@ A brief description of what this project does and who it's for
 
 
 
-Step 1:	Create a ubuntu server
+Step 1:	Create a Ubuntu server
 
-1. Launch instance and give name ubuntu.
+1. Launch the instance and give the name ubuntu.
 
-2.	Select ubuntu and t2.micro-CPU.
-3.	Download a new keypair.
+2.	Select Ubuntu and t2.micro-CPU.
+3.	Download a new key pair.
 4.	Select default VPC
-5.	In security group allows ssh, https and http allow anywhere.
+5.	In the security group SSH, https, and HTTP allow anywhere.
 6.	Launch instance.
 
 ![image](https://github.com/dharmaraj257/Terraform-Projects/assets/100831265/76765ed0-f903-42f3-a087-93385398f451)
 
-Step 2:	Log in to the ubuntu server using putty
-1.	copy the public IPv4 and paste on the putty.
+Step 2:	Log in to the Ubuntu server using Putty
+1.	copy the public IPv4 and paste it on the putty.
 
-2.	Select ssh and go to the authentication and upload the ppk file
-3.	Then put password ubuntu and log in.
+2.	Select SSH and go to the authentication and upload the ppk file
+3.	Then enter the password ubuntu and log in.
 ![image](https://github.com/dharmaraj257/Terraform-Projects/assets/100831265/910e792c-4754-4b40-bb99-1c158779b5aa)
 
 
 Step 3:	Update the server
-1.	use to update server use command
+1.	to update the server use the command
 
 2.	    Sudo apt update -y
 
